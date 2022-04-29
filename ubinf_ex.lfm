@@ -1,0 +1,129 @@
+object Form1: TForm1
+  Left = 270
+  Height = 564
+  Top = 163
+  Width = 431
+  Caption = 'Form1'
+  ClientHeight = 564
+  ClientWidth = 431
+  LCLVersion = '2.2.0.4'
+  object Memo1: TMemo
+    Left = 8
+    Height = 330
+    Top = 8
+    Width = 150
+    Lines.Strings = (
+      '1'
+      '2'
+      '3'
+      '4'
+      '5'
+      '6'
+      '7'
+      '8'
+      '9'
+    )
+    TabOrder = 0
+  end
+  object Memo2: TMemo
+    Left = 272
+    Height = 330
+    Top = 8
+    Width = 150
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 168
+    Height = 137
+    Top = 8
+    Width = 96
+    Caption = 'CONVOLUTED'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object GroupBox1: TGroupBox
+    Left = 16
+    Height = 193
+    Top = 352
+    Width = 296
+    Caption = 'REGISTRATION'
+    ClientHeight = 173
+    ClientWidth = 292
+    TabOrder = 3
+    object Label1: TLabel
+      Left = 16
+      Height = 15
+      Top = 8
+      Width = 32
+      Caption = 'Name'
+    end
+    object Label2: TLabel
+      Left = 16
+      Height = 15
+      Top = 48
+      Width = 47
+      Caption = 'Surname'
+    end
+    object Label3: TLabel
+      Left = 16
+      Height = 15
+      Top = 88
+      Width = 21
+      Caption = 'Age'
+    end
+    object Edit1: TEdit
+      Left = 80
+      Height = 23
+      Top = 8
+      Width = 80
+      TabOrder = 0
+      Text = 'John'
+    end
+    object Edit2: TEdit
+      Left = 80
+      Height = 23
+      Top = 48
+      Width = 80
+      TabOrder = 1
+      Text = 'Stalvern'
+    end
+    object Edit3: TEdit
+      Left = 80
+      Height = 23
+      Top = 88
+      Width = 80
+      TabOrder = 2
+      Text = '26'
+    end
+    object Button2: TButton
+      Left = 208
+      Height = 25
+      Top = 8
+      Width = 75
+      Caption = 'Write'
+      OnClick = Button2Click
+      TabOrder = 3
+    end
+    object Button3: TButton
+      Left = 208
+      Height = 25
+      Top = 40
+      Width = 75
+      Caption = 'Read'
+      OnClick = Button3Click
+      TabOrder = 4
+    end
+    object Button4: TButton
+      Left = 208
+      Height = 25
+      Top = 72
+      Width = 75
+      Caption = 'Clear'
+      OnClick = Button4Click
+      TabOrder = 5
+    end
+  end
+end
